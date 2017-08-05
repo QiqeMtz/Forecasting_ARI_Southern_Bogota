@@ -3,9 +3,13 @@ include/
 lib/
 share/
 R/
+.Rproj.user/
+.RData
+.Rhistory
 .Python
 *.json
 *.csv
 *.eps
 *.Rproj
 .DS_Store
+.ipynb_checkpoints
