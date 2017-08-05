@@ -3,7 +3,8 @@ include/
 lib/
 share/
 R/
-Gra
+.Python
+*.json
 *.csv
 *.eps
 *.Rproj
