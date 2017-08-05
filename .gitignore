@@ -1,0 +1,10 @@
+bin/
+include/
+lib/
+share/
+R/
+Gra
+*.csv
+*.eps
+*.Rproj
+.DS_Store
