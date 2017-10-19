@@ -1,0 +1,48 @@
+How to configure this folder to use ARIMA and SARIMA Notebook
+
+First, you require to install Python 3.6 in your computer
+
+Then you need to create a virtual environment to use Python
+
+A virtual environment is a Python Virtual Installation, in this environment you can install all the libraries required without install directly
+in your computer/python local environment
+
+After installing Python 3.6 please, in your terminal run this command:
+
+pip3 install virtualenv
+
+
+After this, you can create virtual environments
+
+Through your terminal go to Python_DS Folder, then enter this command:
+
+virtualenv -p python3.6 virtual_python
+
+
+Then you've created a virtual environment called virtual_python
+
+
+Now you need to activate your virtual environment, now type:
+
+source virtual_python/bin/activate
+
+in your terminal you'll see at the beginnign of your command line the name of your virtual environment (virtual_python)
+
+
+Now you need to install all the libraries we need to execute the Jupyter Notebook and work with ARIMA and SARIMA, type in your terminal:
+
+pip install -r Requirements.txt
+
+Be sure that you are in the Python_DS folder and Requirements.txt file is there
+
+
+After this, you're ready to run Jupyter Notebook and work with Data Science in Python, move to ARIMA_SARIMA folder and type
+
+jupyter-notebook
+
+
+A local server will start and then a web page will be opened, that's all. You are ready to work with Python and Data Science.
+
+
+ARIMA - Epidemiology.ipynb is the Notebook where ARIMA and SARIMA work are stored
+
